@@ -131,13 +131,14 @@
 	}
 	.unlock{
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		flex-wrap: wrap;
 		align-items: center;
-		gap: 30px;
-		margin: 30px 0px;
+		margin: auto;
 		color: #4d4d4d;
-		width: 100%;
+		max-width: 1200px;
+		padding: 50px;
+		gap: 30px;
 	}
 	.unlock-1{
 		width: 40%;
@@ -147,13 +148,14 @@
 	}
 	.unlock-1{
 		background-image: url("Frame 35.svg");
-		width: 400px;
-		height: 400px;
+		max-width: 100%;
+		width: 450px;
+		height: 450px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.unlock-2{
-		width: 40%;
+		max-width: 500px;
 	}
 	.learn{
 		background-color: #4aa84c;
@@ -202,24 +204,15 @@
 	}
 	.customer-1{
 		background-image: url("pana.svg");
-		width: 500px;
-		height: 500px;
+		max-width: 100%;
+		width: 450px;
+		height: 450px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.tesla-section{
 		background-color: #f5f7fa;
 	}
-	/*.tesla-container{
-		display:flex;
-		flex-wrap: wrap;
-		width: 100%;
-		align-items: center;
-		justify-content: center;
-	}
-	.tesla-container div{
-		margin: 0px 30px;
-	}*/
 
 	.tesla-img{
 		background-image: url("image 9.png");
